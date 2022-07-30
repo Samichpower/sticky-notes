@@ -78,8 +78,15 @@ main {
   background-color: whitesmoke;
 }
 
+.button:active {
+  font-size: 15px;
+}
+
 .note-content {
   margin: 0;
   padding: 6px;
   color: rgb(49, 49, 49);
+  border: none;
+  height: 258px;
+  resize: none;
 }
