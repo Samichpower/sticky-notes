@@ -1,15 +1,29 @@
-* {
-  padding: 0;
+body {
   margin: 0;
 }
 
 .navbar {
+  background-color: aliceblue;
+}
+
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
   max-width: 800px;
 }
 
 .navlinks {
   display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.link-style {
+  margin: 0;
+  padding: 0;
 }
