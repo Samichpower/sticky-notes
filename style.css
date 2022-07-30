@@ -1,9 +1,11 @@
 body {
   margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar {
   background-color: aliceblue;
+  border-bottom: 1px solid rgb(49, 49, 49);
 }
 
 .nav-container {
@@ -28,5 +30,10 @@ li {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-size: 20px;
+  color: rgb(82, 82, 82);
+}
+
+h1 .link-style {
   font-size: 24px;
 }
