@@ -5,7 +5,10 @@ body {
 
 li {list-style-type: none;}
 
-ul {margin: 0;}
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 
 /* NAVBAR */
@@ -44,6 +47,7 @@ h1 .link-style {
 main {
   display: flex;
   flex-wrap: wrap;
+  padding: 0 200px;
 }
 
 .sticky-note {
@@ -53,4 +57,9 @@ main {
   width: 300px;
   margin: 20px;
   border: 1px solid rgb(49, 49, 49);
+}
+
+.note-buttons {
+  display: flex;
+  justify-content: space-between;
 }
